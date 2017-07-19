@@ -1,0 +1,325 @@
+
+* {
+	box-sizing: border-box;
+}
+html, body {
+	margin: 0;
+	padding: 0;
+	height:100%;
+	width: 100%;
+
+}
+
+h2 {
+	font-family: chicago, serif;
+	font-size: 200%;
+	font-weight: 700;
+	color: #2C2C2C;
+	text-align: center;
+	text-decoration: underline;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+p {
+	font-family: chicago, serif;
+	color: #2C2C2C;
+	font-size: 140%;
+	line-height: 180%;
+	text-align: justify;
+	font-weight: 300;
+}
+
+img {
+	text-align: center;
+	max-width: 100%;
+	height: auto;
+	width: auto;
+}
+
+.intro {
+	height: 100%;
+	width: 100%;
+	margin: auto;
+	background: url(http://i.piccy.info/i9/35eeaaad5c0ceca545be20b719a62eb5/1499760540/516888/1152850/mar_playa_olas_arena_atardecer_sol_nubes_Fondos_de_Pantalla_HD_professor_falken_com_.jpg) no-repeat 50% 50%;
+	background-size: cover;
+	display: table;
+	top: 0;
+
+}
+
+.intro .inner {
+	display: table-cell;
+	vertical-align: middle;
+	width: 100%;
+	max-width: none;
+}
+.content {
+	max-width: 600px;
+	margin: auto;
+}
+h1 {
+	font-family: chicago, serif;
+	font-size: 300%;
+	font-weight: 700;
+	color: #FFF;
+	text-align: center;
+	padding: 2%;
+	text-shadow: 0px 0px 250px #000;
+}
+.content p {
+	color: #FFF;
+	text-align: center;
+}
+.inner {
+	max-width: 600px;
+	margin: auto;
+	font-size: 170%;
+	line-height: 1.6;
+	padding: 10px;
+}
+
+nav {
+	float: left;
+	padding: 5% 5% 0 0;
+	height: 50px;
+	font-family: chicago, serif;
+}
+nav ul {
+	list-style: none;
+	float: left;
+}
+
+nav ul li {
+	font-family: chicago, sans-serif;
+	font-size: 120%;
+}
+
+nav ul li a {
+	color: #FFF;
+	text-decoration: none;
+}
+
+nav li {
+	width: 100%;
+	padding: 8px 0 10px 7px;
+	margin: 0;
+}
+
+#menu-icon {
+	width: 30px;
+	height: 26px;
+	background: url(img/nav-icon.png) center;
+	display: inline-block;
+	margin: 50px 0 0 50px;
+}
+
+.left-col {  
+	width: 60%;
+	float: left;
+	margin: 4% 0 4% 4%;
+}
+
+.sidebar {
+	width: 26%;
+	float: left;
+	margin: 4%;
+}
+
+.one-third-port {   
+	width: 29.333333%;
+	padding: 2%;
+	float: left;
+	}
+
+
+.contact p {
+	text-align: center;
+	letter-spacing: 5px;
+}
+.contact a {
+	color: #2C2C2C;
+	text-decoration: none;
+}
+
+
+.clearfix {
+	clear: both;
+	height: 3%;
+}
+
+/*стили для формы обратной связи*/
+form label { /*для названия полей*/
+	display: inline-block;
+	font-weight: bold;
+	font-size: 1.2em;
+	width: 100%;
+	padding: 6px 0;
+	color: #464646;
+	vertical-align: top;
+	font-family: chicago, serif;
+}
+form .req { color: #ca5354; } /*стиль для звездочки*/
+
+form .note { /*стиль для текста после звездочки*/
+	font-family: chicago, serif;
+	font-size: 0.8em;
+	line-height: 1.33em;
+	font-weight: normal;
+	padding: 2px 7px;
+	margin-bottom: 10px;
+}
+
+
+form .txt { /*для текстового поля формы*/
+	display: inline-block;
+	padding: 8px 9px;
+	padding-right: 30px;
+	width: 240px;
+	font-family: chicago, sans-serif;
+	font-size: 1.35em;
+	font-weight: normal;
+	color: #898989;
+}
+
+.feedback {
+	display: block;
+	float: none;
+	width: auto;
+    max-width: 100%;
+    margin-top: -25px;
+    text-align: center;
+    background-color: #F0EEEE;
+    
+}
+
+.sidebar-contacts {
+	text-align: left;
+    display: inline-block;
+    vertical-align: top;
+    width: 400px;
+    min-height: 432px;
+    margin: 25px;
+}
+
+.sidebar-form {
+	text-align: left;
+    display: inline-block;
+    vertical-align: top;
+    width: 400px;
+    min-height: 432px;
+    margin: 25px;
+}
+
+.h2-feedback {
+    font-size: 200%;
+    color: #333;
+    text-align: center;
+    margin: 20px 0 48px;
+    position: relative;
+    padding-top: 10px;
+}
+
+fieldset {
+	border: none;
+	margin: 0;
+	padding:0;
+}
+
+footer {
+	background-color: #2C2C2C;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+footer p {
+	color: #FFF;
+	text-align: center;
+	padding: 5%;
+	-webkit-margin-before: 0px;
+
+}
+
+input[type="checkbox"] {
+ display: none;
+}
+
+.lightbox, .grid {
+ width: 100%;
+ position: fixed;
+ top: 0;
+ left: 0;
+}
+ 
+.lightbox {
+ z-index: 1;
+ min-height: 100%;
+ overflow: auto;
+ -webkit-transform: scale(0);
+ -ms-transform: scale(0);
+ transform: scale(0);
+ -webkit-transition: -webkit-transform .5s ease-out;
+ transition: transform .5s ease-out;
+}
+.lightbox img {
+ position: fixed;
+ top: 50%;
+ left: 50%;
+ max-width: 96%;
+ max-height: 96%;
+ -webkit-transform: translate(-50%, -50%);
+ -ms-transform: translate(-50%, -50%);
+ transform: translate(-50%, -50%);
+ box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+}
+ 
+input[type="checkbox"]:checked + .lightbox {
+ -webkit-transform: scale(1);
+ -ms-transform: scale(1);
+ transform: scale(1);
+}
+ 
+input[type="checkbox"]:checked ~ .grid {
+ opacity: .125;
+}
+ 
+.grid {
+z-index: 0;
+height: 100%;
+margin: 0.2em;
+padding: 0.2em;
+overflow: auto;
+text-align: center;
+-webkit-transition: opacity .75s;
+transition: opacity .75s;
+position: relative;
+}
+
+
+.grid .grid-item {
+ display: inline-block;
+ width: 30%;
+ margin: 0.2em;
+ padding: 0.2em;
+ opacity: .75;
+ -webkit-transition: opacity .5s;
+ transition: opacity .5s;
+}
+.grid .grid-item:hover {
+ opacity: 1;
+}
+@media screen and (max-width: 1024px) {
+ .grid .grid-item {
+ width: 40%;
+ }
+}
+@media screen and (max-width: 768px) {
+ .grid .grid-item {
+ width: 100%;
+ }
+}
+.grid img {
+ max-width: 100%;
+ max-height: 100%;
+ box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+}
